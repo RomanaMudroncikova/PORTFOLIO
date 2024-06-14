@@ -13,16 +13,16 @@ The user is created with this info:
 web is tested on PC browser
 
 Steps:
-1. click on the button "PrihlĂˇsiĹĄ sa" --top right corner--
---form is displayed on the left side under the form name "Ăno, uĹľ mĂˇm ĂşÄŤet na empikfoto.sk"--
+1. click on the button "Prihlásiť sa" --top right corner--
+--form is displayed on the left side under the form name "Áno, už mám účet na empikfoto.sk"--
 2. fill in "E-mail" input
 3. fill in "Heslo" input
-4. click on checkbox "PamĂ¤taĹĄ si ma" to disable it
-5. click on "PRIHLĂSIĹ¤ SA" button 
+4. click on checkbox "Pamätať si ma" to disable it
+5. click on "PRIHLÁSIŤ SA" button 
 
 Expected Result:
 User is logged in and return on the homepage. 
-His name is displayed in top right corner instead of "PrihlĂˇsiĹĄ sa" and "RegistrovaĹĄ sa". 
+His name is displayed in top right corner instead of "Prihlásiť sa" and "Registrovať sa". 
 
 Additional Notes:
 Capture a screenshot after successful login

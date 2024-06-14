@@ -15,16 +15,16 @@ tested on PC browser
 website is functional
 
 Steps: 
-1. click on "RegistrovaĹĄ sa" button --top right corner--
+1. click on "Registrovať sa" button --top right corner--
 --form display on the left side of the screen--
 2. fill in "E-mail"
 3. fill in "Heslo"
 4. fill in "Znovu zadaj heslo"
-5. fill in "TelefĂłne ÄŤĂ­slo"
+5. fill in "Telefóne číslo"
 --under the form--
-6. unclick the checkbox "SĂşhlasĂ­m so zasielanĂ­m elektronickĂ˝ch faktĂşr"
-7. click on checkbox "* OboznĂˇmil som sa s obchodnĂ˝mi podmienkami a sĂşhlasĂ­m s ich obsahom"
-8. click on button "REGISTROVAĹ¤ SA >"
+6. unclick the checkbox "Súhlasím so zasielaním elektronických faktúr"
+7. click on checkbox "* Oboznámil som sa s obchodnými podmienkami a súhlasím s ich obsahom"
+8. click on button "REGISTROVAŤ SA >"
 
 Expected resolt:
 Display comfirming massage, that new user has been created. Massage display above filled form with background-color: green; border: solid 3px green;

@@ -1,0 +1,71 @@
+Title: Add panoramatic photo into chart
+Type: functional
+Priority: Hight
+Assieng to: Me
+Estimate: 35 min
+
+Proposition:
+open web: https://www.empikfoto.sk/
+web is functional
+tested on pc browser
+folder ‪C:\Users\HP\Desktop\empikfoto.sk witch contain photos
+discount code is active
+The user is created with this info: 
+    email: admin123@email.com
+    password: Admin123
+Address of user: 
+  Peter Novák
+  Nová 489
+  03401 Ružomberok
+Address of shippment:
+  Klučova služba Klučik
+  Karadžičova 8/A
+
+
+Step
+1.  click on navigation bar and select button "Fotky" -- first bar on navigation menu--
+2. select option "Panoramatiké výtlačky" --middle of the paige, middle button--
+3. select the size "30/54" and type of paper "prémiový hodvábny" -- form pop-up on the left side of the screen--
+4. click on the button "Objednať fotky" --red button--
+5. click on the button "VYBER SÚBORY Z POČÍTAČA" --button in the midle of the screen background-color: white, border: solid 2px grey,--
+6. select 1 photo of your choice from folder  ‪C:\Users\HP\Desktop\empikfoto.sk
+7. check if is selected
+8. click on the button "ODOSLAŤ SNÍMKY" --in the right bottom corner--
+9.check if massage "Nižšie môžeš nastaviť parametre pre všetky snímky. Môžeš si vybrať formát, papier, počet kópií. V ďalšom kroku môžeš tiež upraviť nastavenia jednotlivých snímok."  - is displayed --in the top of the screen background-color: blue, border: solid 2px darkBlue,--
+10. check if massage "Tvoje snímky boli automaticky orezané. Skontroluj, že to vyhovuje tvojim očakávaniam. Snímky môžeš prezerať a upravovať pomocou tlačidla „Upraviť”." - is Displayed --in the top of the screen background-color: blue, border: solid 2px darkBlue,--
+11. Add one more copy --third input--
+12.clik on the button "PRIDAŤ DO KOŠÍKA" --red button on the bottom right corner--
+13. in input "" add discount code
+14. click on the button "PREPOČÍTAŤ"
+15. click on the button "POKRAČOVAŤ" --bottom right corner--
+16. click on the button "PRIHÁSIŤ SA"
+17. check if massage "Prihlasovací formulár obsahuje chyby." - is displayed -- --in the top of the screen background-color: pink, border: solid 2px red,--
+18. fill in "E-mail" input --form on the left side--
+19. Fill in "Heslo" input --form on the left side--
+20. click on the button "PRIHÁSIŤ SA"
+21. click on roundbox "Vyzdvihnutie v odbernom miest - Zásielkovňa /Packeta"
+22. select address
+23. click on button "VYBRAŤ"
+24. fill in input "Meno" --form on the left--
+25. fill in input "Priezvisko" --form on the left--
+26. click on button "ULOŽ" --form on the left--
+27. select payment "Online platba kartou"
+28. fill input "Meno" --form named "Pridať adresu"--
+29. fill input "Priezvisko" --form named "Pridať adresu"--
+30. fill input "Krajina" --form named "Pridať adresu"--
+31. fill input "Ulica" --form named "Pridať adresu"--
+32. fill input "Číslo" --form named "Pridať adresu"--
+33. fill input "PČS" --form named "Pridať adresu"--
+34. fill input "Obec" --form named "Pridať adresu"--
+35. click on the button "ULOŽIŤ" -- red button on the bottom--
+36. click on the button "POKRAČOVAŤ" -- red button aon the right--
+37. click on the button "OBJEDNAŤ A ZAPLATIŤ"
+38. redirect on the payment gate and take the screenshot
+
+
+Expected Result:
+Add to chart a panoramatic picture. 
+Change the size and type of paper. 
+Add one more copy into a chatr. 
+Fill in the address and select the payment and shipping method. 
+Order the items and take screenshot of payment gate

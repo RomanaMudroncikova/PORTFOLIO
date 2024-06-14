@@ -1,0 +1,31 @@
+Title: Registration of new user
+Type: Funkctional
+Priority: Hight
+Assainged to: ME
+Estimate: 20 min 
+
+Precondicions:
+open web site https://www.empikfoto.sk/
+created user information :
+  email :  admin123@email.com
+  password: Admin123
+  phone number: +421 918 998 452
+same user does not exist
+tested on PC browser
+website is functional
+
+Steps: 
+1. click on "RegistrovaĹĄ sa" button --top right corner--
+--form display on the left side of the screen--
+2. fill in "E-mail"
+3. fill in "Heslo"
+4. fill in "Znovu zadaj heslo"
+5. fill in "TelefĂłne ÄŤĂ­slo"
+--under the form--
+6. unclick the checkbox "SĂşhlasĂ­m so zasielanĂ­m elektronickĂ˝ch faktĂşr"
+7. click on checkbox "* OboznĂˇmil som sa s obchodnĂ˝mi podmienkami a sĂşhlasĂ­m s ich obsahom"
+8. click on button "REGISTROVAĹ¤ SA >"
+
+Expected resolt:
+Display comfirming massage, that new user has been created. Massage display above filled form with background-color: green; border: solid 3px green;
+Save new information into a database.

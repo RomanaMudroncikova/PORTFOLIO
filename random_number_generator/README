@@ -1,1 +1,37 @@
-jdkh
+# Guess the Number Game
+
+Welcome to the "Guess the Number" game! This is a simple web application where the player tries to guess a randomly generated number within a specified range.
+
+## How to Play
+
+1. **Enter Your Guess:** Enter a number in the input field provided.
+2. **Submit Your Guess:** Click the "Enter" button to submit your guess.
+3. **Feedback:** You will receive feedback if your guess is too high, too low, or correct.
+4. **Win the Game:** Keep guessing until you correctly identify the random number.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Features
+
+- Randomly generates a number between a specified range.
+- Provides feedback to the player based on their guesses.
+- Simple and intuitive user interface.
+
+## Screenshots
+
+![Screenshot](guess_1.png)
+![Screenshot](guess_2.png)
+![Screenshot](guess_3.png)
+
+## Author
+
+- Romana Mudončíková
+
+## Contact
+
+- LinkedIn: [Romana Mudrončíková](https://linkedin.com/in/romana-mudrončíková)
+- Email: mudr.romana@gmail.com

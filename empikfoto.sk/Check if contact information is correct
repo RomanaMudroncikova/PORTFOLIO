@@ -1,0 +1,55 @@
+Title: Check if contact information is correct
+Type: nonfunctional/automatic
+Priority: Low
+Assainged to: ME
+Estimate: 5 min 
+
+
+Precondicions:
+open web site https://www.empikfoto.sk/
+tested on PC browser
+website is functional 
+
+Steps: 
+/// <reference types="cypress" />
+
+//cross-orgin weaning
+Cypress.on('uncaught:exception', (err, runnable) => {
+  return false;
+});
+
+describe('checking contact details', () => {
+  it('passes', () => {
+
+//visit homepage https://www.empikfoto.sk/
+    cy.visit('https://www.empikfoto.sk/');
+
+//allow all cookies
+    cy.get('#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll').click();
+    
+//check if contains "Kontakt"
+    cy.get('#third-list > .list > .title > p').contains('Kontakt');
+   
+//check if contains title "EMPIK FOTO"
+    cy.get('#third-list > .list > :nth-child(2)').contains('EMPIK FOTO');
+
+//check if contains address "ul. Budovateľská 1234"
+    cy.get('#third-list > .list > :nth-child(3)').contains('ul. Budovateľská 1234');
+
+//check if contains address "03853 Turany"
+    cy.get('#third-list > .list > :nth-child(4)').contains('03853 Turany');
+
+//check if contains number "(+421) 233 002 071"
+    cy.get(':nth-child(5) > .line') .contains('(+421) 233 002 071');
+    
+// click on "Kontakntý formulár"
+   cy.get(':nth-child(7) > .link-alt > .special').click();
+
+//check if contains email "info@empikfoto.sk"
+   cy.get('.boxes > :nth-child(1) > .margin_box > :nth-child(2) > a').contains('info@empikfoto.sk');
+  })
+})
+
+Expected resolt: 
+All contact information are correct.
+"Kontaktný formulár" contains correct email.

@@ -1,0 +1,28 @@
+Title: Log in an existing user
+Type: functional
+Priority: high
+Assigned to: Me
+Estimate: 10 min
+
+Preconditions:
+open https://www.empikfoto.sk/
+The web is functional
+The user is created with this info: 
+    email: admin123@email.com
+    password: Admin123
+web is tested on PC browser
+
+Steps:
+1. click on the button "PrihlĂˇsiĹĄ sa" --top right corner--
+--form is displayed on the left side under the form name "Ăno, uĹľ mĂˇm ĂşÄŤet na empikfoto.sk"--
+2. fill in "E-mail" input
+3. fill in "Heslo" input
+4. click on checkbox "PamĂ¤taĹĄ si ma" to disable it
+5. click on "PRIHLĂSIĹ¤ SA" button 
+
+Expected Result:
+User is logged in and return on the homepage. 
+His name is displayed in top right corner instead of "PrihlĂˇsiĹĄ sa" and "RegistrovaĹĄ sa". 
+
+Additional Notes:
+Capture a screenshot after successful login

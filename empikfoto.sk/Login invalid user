@@ -1,0 +1,53 @@
+Title: Login invalid user
+Type: Funkctional - automatic
+Priority: Medium
+Assainged to: ME
+Estimate: 15 min 
+
+Precondicions:
+open web site https://www.empikfoto.sk/
+tested on PC browser
+website is functional 
+input information:
+  'fake@email.com'
+  '$ecret1'
+
+Steps: 
+/// <reference types="cypress" />
+
+//cross-orgin weaning
+Cypress.on('uncaught:exception', (err, runnable) => {
+  return false;
+});
+
+describe('login invalid user', () => {
+  it('passes', () => {
+   //visit homepage https://www.empikfoto.sk/
+    cy.visit('https://www.empikfoto.sk/')
+  //decline cookies
+    cy.get('#CybotCookiebotDialogBodyButtonDecline').click()
+  //click on "prihlásenie" 
+    cy.get('.service-function > :nth-child(4) > .link-alt').click()
+  //fill in incorrect "Email" 
+    cy.get('#userRegisterForm_email').type('fake@email.com')
+  //fill in incorrect "Heslo"  
+    cy.get('#userRegisterForm_password_first_l').type('$ecret1')
+  //uncheck the deafoult "Pamätať si ma" 
+    cy.get('#remember_me').uncheck()
+  //click on "Prihlásiť sa" button
+    cy.get('#loginForm').click()
+
+  //check if is display massage 'Neplatný používateľ alebo heslo.' OR 'Chyba validácie Captcha'
+    cy.get('.statement > div > span').should(($span) => {
+      const text = $span.text();
+      expect(text.includes('Neplatný používateľ alebo heslo.') 
+    || text.includes('Chyba validácie Captcha'))
+  })
+})
+})
+
+
+Expected resolt: 
+Login failed.
+Display a massage 'Neplatný používateľ alebo heslo.'
+OR display a massage 'Chyba validácie Captcha'

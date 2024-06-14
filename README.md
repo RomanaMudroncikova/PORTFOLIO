@@ -1,5 +1,5 @@
 
-#Welcome to my portfolio repository for entry-level positions#
+# Welcome to my portfolio repository for entry-level positions #
 
 Here you can find a collection of SQL scripts and test scenarios related to the real-world website www.empikfoto.sk. 
 Please note that the tests and scripts included here are fictional and were created for portfolio demonstration purposes only.

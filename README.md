@@ -13,6 +13,7 @@ I am a student at Woman Testing Academy with a passion for IT testing. My projec
 - **Test Scenarios:** Scenarios for testing applications and websites.
 - **Selenium IDE Scripts:** Scripts using Selenium IDE for test automation.
 - **Game Guess The Number:** A simple web-based game that generates random numbers.
+- **Game Let´s Roll:** A dice generator.
 
 ## Contact
 

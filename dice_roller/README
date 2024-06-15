@@ -1,0 +1,37 @@
+# Roll a Dice LET´S ROLL
+
+This project allows users to roll a specified number of dice and displays both the numeric results and corresponding dice images.
+
+## HOW TO PLAY
+
+1.select a number of dice (1-6)
+2.click a ROLL button
+3.Numbers will be randomly generated for each dice, and the results along with corresponding dice images will be displayed.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript 
+
+## Features
+
+- Generates random numbers between 1 and 6 based on the selected number of dice.
+- Displays dice images corresponding to the rolled numbers.
+- Responsive design that adjusts for different screen sizes.
+
+## Screenshots
+
+![Screenshot](screenshot1.png)
+![Screenshot](screenshot2.png)
+![Screenshot](screenshot3.png)
+![Screenshot](screenshot4.png)
+
+## Author
+
+- Romana Mudončíková
+
+## Contact
+
+- LinkedIn: [Romana Mudrončíková](https://linkedin.com/in/romana-mudrončíková)
+- Email: mudr.romana@gmail.com

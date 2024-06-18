@@ -1,0 +1,59 @@
+Title: Register a new user
+Type: functional/ automatic
+Priority: Hight
+Assieng to: Me
+Estimate: 10 min
+
+Proposition: 
+website is functional www.travellerspoint.com 
+web is tested on PC browser
+
+Step: 
+
+describe('registration functionality', () => {
+  
+  beforeEach(() => {
+    // Disable CAPTCHA for the duration of the test
+    cy.intercept('POST', '/your/captcha/endpoint', (req) => {
+      req.reply({ captchaPassed: true });
+    });
+  });
+
+  it('registration of new user', () => {
+1.krok //open website travellerspoint.com/
+    cy.visit('https://www.travellerspoint.com/');
+2.krok // click on button sign up
+    cy.get(':nth-child(3) > [href="/signup/"]').click();
+3.krok // random generate email
+    const email = Math.random().toString().substring(2,15)+"@gmail.com";
+4.krok // random generate username
+   const userName = generateRandomString(13);
+5.krok // random generate password
+    const password = Math.random().toString();
+6.krok //type a random email
+    cy.get('#email').type(email);
+7.krok //type a random userName
+    cy.get('#username').type(userName);
+8.krok //type a random password
+    cy.get('#password').type(password, { sensitive: true }); // aspoň 6 znakov
+9.krok //click on accept-terms check-box
+    cy.get('#accept-terms').check();
+10.krok // click on button join travellerpoint
+    cy.get('[data-cy]').click
+
+  });
+  });
+
+  //function to generate alfabetical random userName 
+  function generateRandomString(length) {
+    const characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let result = '';
+    const charactersLength = characters.length;
+    for (let i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+  }
+
+Expected Result:
+Registration of random user in www.travellerspoint.com

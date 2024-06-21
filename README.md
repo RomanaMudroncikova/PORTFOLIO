@@ -2,6 +2,8 @@
 
 Welcome to my portfolio! Here you will find a collection of projects and scripts showcasing my skills and experience in IT testing and development.
 
+### I do not own any rights to the applications tested in this portfolio. All rights to these applications belong to their respective owners. The tests presented here are solely for educational and demonstration purposes. ###
+
 ## About Me
 
 I am a student at Woman Testing Academy with a passion for IT testing. My projects focus on testing, basic automating processes, and demonstrating coding skills.

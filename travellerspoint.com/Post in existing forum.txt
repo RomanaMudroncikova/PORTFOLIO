@@ -1,0 +1,58 @@
+Identifier: UVZ028
+Title: Post in existing forum
+Type: functional - automatic 
+Priority: hight
+Assigned to: Me
+Estimate: 10 min 
+
+Preconditions:
+The web  www.travellerspoint.com is functional
+web is tested on PC browser
+cypress installed
+crated user:
+  email - kowojom536@lisoren.com 
+  username - ExampleName
+  password - pl65421
+
+Steps:
+describe('post in existing forum', () => {
+  it('create post in existing forum', () => {
+   
+1.Step // open web
+    cy.visit('https://www.travellerspoint.com/')
+   
+2.Step // click on button log in
+    cy.get('[href="/login/"]').click()
+    
+3.Step // type 'ExampleName' in input username
+    cy.get('#username').type('ExampleName')
+    
+4.Step // type 'pl65421' in input password
+    cy.get('#password').type('pl65421')
+    
+5.Step // click on button login
+    cy.get('[data-cy="submit-login"]').click()
+  
+6.Step // click on write a blog Entry
+    cy.get('[href="/forum.cfm"] > span').click()
+    
+7.Step // select forum 
+    cy.contains('Word Game (warning - addictive)').click()
+
+8.Step //skip to the end
+    cy.contains('Last Post').click()
+    
+9.Step //type word 'cat'
+    cy.get('#ff_entry').type('Cat')
+    
+10.Step //click on preview
+    cy.get('[value="Preview"]').click()
+   
+11.Step //submit a post to forum
+    cy.get(':nth-child(3) > [value="Submit"]').click()
+    
+  })
+})
+
+Expected Result: 
+Post a word 'Cat' to an existin post called 'Word Game (warning - addictive)'

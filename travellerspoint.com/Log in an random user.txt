@@ -1,0 +1,59 @@
+Identifier: UVZ002
+Title: Log in an random user
+Type: functional - automatic 
+Priority: medium
+Assigned to: Me
+Estimate: 10 min 
+
+Preconditions:
+The web  www.travellerspoint.com is functional
+web is tested on PC browser
+cypress installed
+
+Steps:
+describe('log in', () => {
+  it('log in a user', () => {
+
+1.krok // open website travellerspoint.com
+    cy.visit('https://www.travellerspoint.com/')
+
+2.krok // click on button log in
+    cy.get('[href="/login/"]').click()
+ // random generate username
+    const userName = generateRandomString(13
+// random generate password
+    const password = Math.random().toString();
+
+3.krok // type a random user name
+    cy.get('#username').type(userName)
+
+4.krok // type a random password
+    cy.get('#password').type(password ,{sensitive:true})
+
+5.krok // check check-box Keep me logged in on this device
+    cy.get('#remember').check()
+
+6.krok // uncheck check-box Keep me logged in on this device
+    cy.get('#remember').uncheck()
+
+7.krok // click on button login
+    cy.get('[data-cy="submit-login"]').click()
+
+8.krok // check if contains warning message
+    cy.get('.list-disc').contains('No such user exists')
+  })
+})
+
+// function to generate a random alfabetical userName
+function generateRandomString(length) {
+  const characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let result = '';
+  const charactersLength = characters.length;
+  for (let i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+  }
+  return result;
+}
+
+Expected Result:
+Enter a random information and display a massage 'No such user exists'.

@@ -10,6 +10,7 @@ Precondicions:
 open web site https://www.empikfoto.sk/
 tested on PC browser
 website is functional 
+Cypress installed
 
 Steps: 
 /// <reference types="cypress" />

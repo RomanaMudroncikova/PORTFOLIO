@@ -1,4 +1,4 @@
-Identifikátor: UVZ001
+Identifier: UVZ001
 Title: Register a new user
 Type: functional- automatic
 Priority: Hight
@@ -8,6 +8,7 @@ Estimate: 10 min
 Proposition: 
 website is functional www.travellerspoint.com 
 web is tested on PC browser
+cypress installed
 
 Step: 
 

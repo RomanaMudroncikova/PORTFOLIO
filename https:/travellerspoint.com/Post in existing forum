@@ -1,4 +1,4 @@
-Identifikátor: UVZ028
+Identifier: UVZ028
 Title: Post in existing forum
 Type: functional - automatic 
 Priority: hight
@@ -8,6 +8,7 @@ Estimate: 10 min
 Preconditions:
 The web  www.travellerspoint.com is functional
 web is tested on PC browser
+cypress installed
 crated user:
   email - kowojom536@lisoren.com 
   username - ExampleName

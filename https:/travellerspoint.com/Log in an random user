@@ -1,4 +1,4 @@
-Identifikátor: UVZ002
+Identifier: UVZ002
 Title: Log in an random user
 Type: functional - automatic 
 Priority: medium
@@ -8,6 +8,7 @@ Estimate: 10 min
 Preconditions:
 The web  www.travellerspoint.com is functional
 web is tested on PC browser
+cypress installed
 
 Steps:
 describe('log in', () => {

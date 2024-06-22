@@ -1,4 +1,4 @@
-Identifikátor: UVX005
+Identifier: UVX005
 Title: Add panoramatic photo into chart
 Type: functional
 Priority: Hight
@@ -9,7 +9,7 @@ Proposition:
 open web: https://www.empikfoto.sk/
 web is functional
 tested on pc browser
-folder ‪C:/Users/HP/Desktop/empikfoto.sk witch contain photos
+folder C:/Users/HP/Desktop/empikfoto.sk witch contain photos 
 discount code is active
 The user is created with this info: 
     email: admin123@email.com

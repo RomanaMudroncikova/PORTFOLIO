@@ -8,6 +8,7 @@ Estimate: 15 min
 Precondicions:
 open web site https://www.empikfoto.sk/
 tested on PC browser
+Cypress installed
 website is functional 
 input information:
   'fake@email.com'

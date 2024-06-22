@@ -1,4 +1,4 @@
-Identifikátor: UVX025
+Identifier: UVX025
 Title: Change the domain 
 Type: automatic/ funkcional
 Priority: Low

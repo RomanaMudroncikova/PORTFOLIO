@@ -5,7 +5,7 @@ Priority: medium
 Assigned to: Me
 Estimate: 10 min 
 
-Precondicions:
+Preconditions:
 The web  www.travellerspoint.com is functional
 web is tested on PC browser
 cypress installed

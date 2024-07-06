@@ -5,17 +5,23 @@ Priority: medium
 Assigned to: ME
 Estimate: 5 min 
 
-Precondicions:
+Preconditions:
 open website https://www.travellerspoint.com/
 website is functional
 User login credentials: 
             username: ExampleName
             password: pl65421
-Folder "Your photos" contain at last one photo
+Folder "Your photos" contains at last one photo
 
 
 Steps: 
-1. 
+1. From user menu select the "Your photos" folder --top right corner--
+2. Mark the checkbox next to photo. 
+3. Click on "Delete" button --blue button--
+4. Click on "Confirm" button --left bottom blue button-- 
+
 
 
 Expected Results:
+The selected photo is deleted.
+After the photo has been deleted, the user is redirected back to the "Your photos" folder.

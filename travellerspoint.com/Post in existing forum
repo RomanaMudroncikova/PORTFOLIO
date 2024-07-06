@@ -1,11 +1,11 @@
 Identifier: UVZ028
 Title: Post in existing forum
-Type: functional - automatic 
-Priority: hight
+Type: functional/automatic 
+Priority: high
 Assigned to: Me
 Estimate: 10 min 
 
-Preconditions:
+Precondicions:
 The web  www.travellerspoint.com is functional
 web is tested on PC browser
 cypress installed
@@ -54,5 +54,5 @@ describe('post in existing forum', () => {
   })
 })
 
-Expected Result: 
+Expected Results:
 Post a word 'Cat' to an existin post called 'Word Game (warning - addictive)'

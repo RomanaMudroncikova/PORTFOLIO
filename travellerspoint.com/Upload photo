@@ -1,16 +1,31 @@
-Identifier: UVX00
-Title: 
-Type: Funkctional
-Priority: Hight
-Assainged to: ME
-Estimate: 20 min 
+Identifier: UVX025
+Title: Upload one photo
+Type: Functional
+Priority: High
+Assigned to: ME
+Estimate: 10 min 
 
 Precondicions:
-open web site https://www.travellerspoint.com/
-Login user: ExampleName
-            pl65421
+open website https://www.travellerspoint.com/
 website is functional
+User login credentials: 
+            username: ExampleName
+            password: pl65421
+Computer contains folder with photos
+
 
 Steps: 
-1.
-Expected resolt:
+1. click on "UPLOAD" icon --midlle of the homepage--
+2. click on "select photos" --green button--
+3. select one photo from computer
+4. write tags #picture #test #hobby #test2 into tag input --legt bottom corner--
+5. click on "Upload" button --top right corner--
+6. click on user icon --top right corner--
+7. select the "Your pictures" folder --6th from the top--
+8. check if new photo is added
+
+
+Expected Results:
+Photo can be selected from folder. 
+Multiple tags can be added.
+After adding it can be foun in "Your photos" folder.

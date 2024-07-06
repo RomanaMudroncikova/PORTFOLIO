@@ -2,7 +2,7 @@ Identifier: UVX012
 Title: Check if contact information is correct
 Type: nonfunctional/automatic
 Priority: Low
-Assainged to: ME
+Assigned to: ME
 Estimate: 5 min 
 
 
@@ -52,6 +52,6 @@ describe('checking contact details', () => {
   })
 })
 
-Expected resolt: 
+Expected Results: 
 All contact information are correct.
 "Kontaktný formulár" contains correct email.

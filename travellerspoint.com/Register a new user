@@ -5,7 +5,7 @@ Priority: High
 Assigned to: Me
 Estimate: 10 min
 
-Precondicions:
+Preconditions:
 website is functional www.travellerspoint.com 
 web is tested on PC browser
 cypress installed

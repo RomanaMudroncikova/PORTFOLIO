@@ -5,7 +5,7 @@ Priority: Medium
 Assigned to: Me
 Estimate: 15 min
 
-Proposition:
+Precondicions:
 open web: https://www.empikfoto.sk/
 web is functional
 tested on pc browser
@@ -61,7 +61,7 @@ describe('IDE_TEST_004', function() {
 })
 
 
-Expected Result: 
+Expected Results:
 
 Select photo book targeted for boys. 
 Check if book presentation is functional. 

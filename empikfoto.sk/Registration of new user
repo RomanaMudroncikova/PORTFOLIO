@@ -2,7 +2,7 @@ Identifier: UVX002
 Title: Registration of new user
 Type: Funkctional
 Priority: Hight
-Assainged to: ME
+Assigned to: ME
 Estimate: 20 min 
 
 Precondicions:
@@ -27,6 +27,6 @@ Steps:
 7. click on checkbox "* Oboznámil som sa s obchodnými podmienkami a súhlasím s ich obsahom"
 8. click on button "REGISTROVAŤ SA >"
 
-Expected resolt:
+Expected Results:
 Display comfirming massage, that new user has been created. Massage display above filled form with background-color: green; border: solid 3px green;
 Save new information into a database.

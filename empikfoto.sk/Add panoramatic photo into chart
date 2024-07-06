@@ -1,11 +1,11 @@
 Identifier: UVX005
 Title: Add panoramatic photo into chart
 Type: functional
-Priority: Hight
-Assieng to: Me
+Priority: High
+Assigned to: Me
 Estimate: 35 min
 
-Proposition:
+Precondicions:
 open web: https://www.empikfoto.sk/
 web is functional
 tested on pc browser
@@ -64,7 +64,7 @@ Steps:
 38. redirect on the payment gate and take the screenshot
 
 
-Expected Result:
+Expected Results:
 Add to chart a panoramatic picture. 
 Change the size and type of paper. 
 Add one more copy into a chatr. 

@@ -5,7 +5,7 @@ Priority: high
 Assigned to: Me
 Estimate: 10 min
 
-Preconditions:
+Precondicions:
 open https://www.empikfoto.sk/
 The web is functional
 The user is created with this info: 
@@ -21,7 +21,7 @@ Steps:
 4. click on checkbox "Pamätať si ma" to disable it
 5. click on "PRIHLÁSIŤ SA" button 
 
-Expected Result:
+Expected Results:
 User is logged in and return on the homepage. 
 His name is displayed in top right corner instead of "Prihlásiť sa" and "Registrovať sa". 
 

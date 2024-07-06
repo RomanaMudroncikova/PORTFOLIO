@@ -2,7 +2,7 @@ Identifier: UVX003
 Title: Login invalid user
 Type: Funkctional - automatic
 Priority: Medium
-Assainged to: ME
+Assigned to: ME
 Estimate: 15 min 
 
 Precondicions:
@@ -49,7 +49,7 @@ describe('login invalid user', () => {
 })
 
 
-Expected resolt: 
+Expected Results:
 Login failed.
 Display a massage 'Neplatný používateľ alebo heslo.'
 OR display a massage 'Chyba validácie Captcha'

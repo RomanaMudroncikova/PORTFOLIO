@@ -5,7 +5,7 @@ Priority: High
 Assigned to: ME
 Estimate: 10 min 
 
-Precondicions:
+Preconditions:
 open website https://www.travellerspoint.com/
 website is functional
 User login credentials: 

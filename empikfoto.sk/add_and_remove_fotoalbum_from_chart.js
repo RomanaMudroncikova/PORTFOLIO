@@ -5,7 +5,7 @@ Priority: High
 Assigned to: Me
 Estimate: 15 min
 
-Proposition:
+Precondicions:
 Open web: https://www.empikfoto.sk/
 Web is functional
 Tested on PC browser
@@ -57,6 +57,6 @@ describe('IDE_TEST_002', function() {
   })
 })
 
-Expected Result:
+Expected Results:
 Add photo album into cart and check if the page contains the text "Odstrániť". 
 Remove it from the cart and redirect to the homepage.

@@ -1,0 +1,21 @@
+Identifier: UVX026
+Title: Delete an upload photo
+Type: Functional
+Priority: medium
+Assigned to: ME
+Estimate: 5 min 
+
+Precondicions:
+open website https://www.travellerspoint.com/
+website is functional
+User login credentials: 
+            username: ExampleName
+            password: pl65421
+Folder "Your photos" contain at last one photo
+
+
+Steps: 
+1. 
+
+
+Expected Results:

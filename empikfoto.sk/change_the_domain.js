@@ -1,11 +1,11 @@
 Identifier: UVX025
 Title: Change the domain 
-Type: automatic/ funkcional
+Type: automatic/ Functional
 Priority: Low
-Assieng to: Me
+Assigned to: Me
 Estimate: 10 min
 
-Proposition:
+Precondicions:
 open web: https://www.empikfoto.sk/
 web is functional
 tested on pc browser
@@ -60,5 +60,5 @@ describe('IDE _TEST _001', function() {
   })
 })
 
-Expected Result:
+Expected Results:
 Open the Slovak domain and change it to Czech. From Czech to Romanian and back to Slovak.

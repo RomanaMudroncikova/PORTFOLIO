@@ -1,17 +1,16 @@
 Identifier: UVZ001
 Title: Register a new user
-Type: functional- automatic
-Priority: Hight
-Assieng to: Me
+Type: functional/ automatic
+Priority: High
+Assigned to: Me
 Estimate: 10 min
 
-Proposition: 
+Precondicions:
 website is functional www.travellerspoint.com 
 web is tested on PC browser
 cypress installed
 
-Step: 
-
+Steps: 
 describe('registration functionality', () => {
   
   beforeEach(() => {
@@ -67,5 +66,5 @@ describe('registration functionality', () => {
     return result;
   }
 
-Expected Result:
+Expected Results:
 Registration of random user in www.travellerspoint.com

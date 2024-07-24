@@ -1,0 +1,125 @@
+Test Plan:
+1. Introduction
+
+  1.1 Purpose:
+    The purpose of this test plan is to test the category and subcategories of  ”Pomôcky” on the navigation bar for  https://www.slsp.sk/sk/ludia.
+
+  1.2 Scope:
+    This test plan covers E2E testing of the website: https://www.slsp.sk/sk/ludia
+    The testing will include both manual and automated tests.
+
+2. Test Items
+  Category ”Pomôcky”
+  Subcategories of category “Pomôcky”
+  
+3. Features to be Tested
+  Category functionality
+  Subcategories functionality
+  Navigation between subcategories
+  Visibility of tested feature
+
+4. Features Not to be Tested
+ Client centrum functionality
+ Navigation between category “Pomôcky” and different categories
+ API integrations 
+
+5. Approach
+  
+  5.1 Testing Levels:
+    E2E Testing: Simulation of real user scenarios, verification of website workflows. 
+    Integration system testing: Testing will include user interaction with calculators, navigation and data display.
+   Compatibility testing: Simulating display on different devices using Android and iOS. 
+
+  5.2 Testing Types:
+    Functional Testing: Verify each feature against requirements.
+    Non-functional Testing: Verify each feature is accessible and performs well.
+    Compatibility testing: Verify the visual display on devices by simulating devices. 
+
+  5.3 Test Design Techniques:
+    Black-box testing for accessibility of features.
+    Automation testing using Cypress for regression and integration verification.
+    Compatibility testing using chrome extension
+
+6. Item Pass/Fail Criteria
+  All automated test cases must pass without critical defects.
+  No high-severity bugs should remain unresolved.
+  All subcategories must be accessible on mobile devices.
+7. Suspension Criteria and Resumption Requirements
+  Automated testing will not be suspended if critical bugs are found.
+  Manual testing will not be suspended if critical bugs are found.
+  
+8. Test Deliverables
+  Test Cases
+  Test Scripts
+  Test Data
+  Test Screenshots
+  Test Recordings
+  Defects reports
+ 
+9. Testing Tasks
+  Prepare test environment
+  Gather needed data
+  Develop test cases for functional testing
+  Develop test cases for nonfunctional testing
+  Execute test cases
+  Develop test cases for compatibility testing
+  Report defects
+
+10. Environmental Needs
+  Website access
+  Web browser: Google Chrome version 126
+  Network: Stable internet connection with minimal speed 10 Mbps
+  Cypress framework
+  Node.js
+  Tool JIRA for managing defects
+  Tool TestRail for tests cases
+  Virtualization tool U-eyes for simulating mobile devices OS and Android 
+  Recording softwere apowersoft.com
+  Operating System: Windows 10
+  8GB RAM
+
+11. Responsibilities
+  Test Manager:
+Develop and manage the overall test plan
+Establish test objectives and scope of testing
+  QA Lead:
+Decide on the use of manual vs. automated tests
+Ensure that all functional and non-functional requirements are covered by test cases
+  Testers:
+Prepare and manage test data necessary for performing tests
+Identify and document all defects found during testing
+Execute manual and automated test cases
+Record test results and compare them with expected results
+
+
+12. Staffing and Training Needs
+  Assign to: Myself
+  No additional training needed.
+
+13. Schedule
+  Activity	         		|Start Date	   |End Date
+  Test Planning	    	|24-Jul-2024	   |24-Jul-2024
+  Test Case Design	 	|25-Aug-2024	   |28-Aug-2024
+  Test Execution	   	|29-Aug-2024	   |30-Aug-2024
+  Test Reporting	  	|31-Aug-2024	   |03-Sep-2024
+
+14. Risks and Contingencies
+  Risk: Lack of access permission
+Contingency: Use alternative access methods, such as contacting customer support or using backup accounts.
+
+  Risk: Technical problems with tools
+Contingency: Provision of alternative tools or solutions.
+
+  Risk: Website temporary shutdown
+Contingency: Modification of the schedule or change of 20% test cases for automation.
+
+  Risk: Lack of sufficient test data
+Contingency: Create mock data or use data anonymization techniques.
+
+
+15. Approvals
+Project Manager: _______________ Date: _______________
+QA Manager: _______________ Date: _______________
+Client Representative: _______________ Date: _______________
+
+
